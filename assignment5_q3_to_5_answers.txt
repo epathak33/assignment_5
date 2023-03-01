@@ -1,0 +1,11 @@
+3) 	Command for Q1: muscle -in infile.fasta -seqtype protein -maxiters 16 -maxmb 30000000 -hydro 5 -hydrofactor 1.2 -log logfile.txt -weight1 clustalw -distance1 kmer6_6 -cluster1 upgmb -sueff 0.1 -root1 pseudo -maxtrees 1 -weight2 clustalw -distance2 pctidkimura -cluster2 upgmb -sueff 0.1 -root2 pseudo -objscore sp -noanchors -out output.fasta
+	Command for Q2: raxml-ng --threads 80 --force perf_threads -msa infile.txt --workers 20 --search --model LG+G
+
+4) species most closely related to that of the "Flying Fox" based on phylogenetic trees are:
+	Rousettus_leschenaultii_ace2, 
+	Epomophorus_wahlbergi_ace2, 
+	Cynopterus_sphinx_ace2, 
+	Dobsonia_viridis_ace2, 
+	Syconycteris_australis_ace2
+
+5) Phylogenetic analysis helps in the study of evolution of certain species or genes. For instance, in the context of the most recent Covid pandemic, phylogenetic analyses allowed for the analysis of the origin of SARS-CoV-2 and the divergence of this strain occurred through mutation.
